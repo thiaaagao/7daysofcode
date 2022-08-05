@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;600&display=swap');
+*{
+    margin: 0 auto;
+
+}
+.navbar{
+    
+    font-family:'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+
+    width: 1440px;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 28px;
+}
+.container-nav{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+    /* color base bgck white */
+    background: #FFFFFF
+}
+
+.container-nav .logo{
+    display: inline-flex;
+
+    padding-left: 112px;
+
+    gap: 8px;
+    width: 27px;
+    height: 26.99px;
+}
+
+.container-nav .logo h1{
+    display: inline-flex;
+    
+    /* font family inter with 18px size and font style normal */
+    font-size: 18px;
+    font-style: normal;
+    color: #3A404E;
+
+    line-height: 28px;
+}
+
+.container-links .links-ul{
+
+    font-size: 16px;
+    line-height: 24px;
+
+    display: inline-flex;
+    justify-content: center;
+
+    padding: 0;
+    list-style: none;
+    gap: 32px;
+
+    text-decoration: none;
+  
+    padding-left: 119px;
+    padding-right: 398px;
+}
+.container-links .links-ul a{
+
+    text-decoration: none;
+    color: #667085;
+
+}
+
+.container-botao{
+    display: flex;
+
+    width: 207px;
+    height: 44px;
+
+    align-items: center;
+    flex-direction: row;
+
+    padding: 18px;
+    padding-right: 112px;
+
+    order: 3;
+}
+.container-botao .button-one{
+    width: 83px;
+    height: 44px;
+    
+    color: #667085;
+
+    border-radius: 8px;
+    border: none;
+    background: none;
+ 
+}
+
+.container-botao .button-one:hover{
+    cursor: pointer;
+}
+
+.container-botao .button-two{
+    width: 112px;
+    height: 44px;
+
+    border: 1px solid #8e2424;
+    border-radius: 8px;
+    background: #8e2424;
+    color: white;
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.container-botao .button-two:hover{
+    cursor: pointer;
+}
+
+
