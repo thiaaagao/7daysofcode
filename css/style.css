@@ -181,3 +181,70 @@
 
 
 }
+
+.container-metricas{
+    width: 1440px;
+    height: 288px;
+
+    padding-bottom: 96px;
+    font-family: 'Inter';
+
+    gap: 64px;
+}
+
+.metricas-conteudo{
+    width: 1216px;
+    height: 192px;
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    gap: 20px;
+}
+
+/* ALTURA E LARGURA METRICAS */
+.metricas{ 
+    
+    flex-direction: column;
+
+    align-items: flex-start;
+    padding: 0;
+    width: 280px;
+    height: 168px;
+    
+}
+/* PADRONIZANDO TEXTOS METRICAS */
+.metricas span{
+
+    line-height: 72px;
+    color:var(--main-color);
+    font-weight:600;
+    font-size:60px;
+
+    letter-spacing: -0.02em;
+
+}
+
+.metricas h3{
+
+    line-height:28px;
+
+    font-size: 18px;
+    font-weight: 500;
+
+    color: #101828;
+
+}
+
+.metricas p{
+
+    line-height: 24px;
+
+    font-size:16px;
+    font-weight:400;
+
+    color: #667085;
+
+}
