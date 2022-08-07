@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Poppins:wght@300;600&display=swap');
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+}
 *{
     margin: 0 auto;
 
@@ -119,4 +123,61 @@
     cursor: pointer;
 }
 
+.sobre-nos{
 
+  /*   font-weight: 600; */
+
+    display: flex; /* DISPLAY FLEX - GAP DA UM ESPAÇAMENTO ENTRE FILHOS DE UMA DIV */
+    padding: 96px 0;
+    /* Fonte */
+    font-family: 'Inter';
+
+    width: 1440px;
+    height: 407px;
+    
+    /* Alinhamento  */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    /* gap: 20px; */ /* usar sempre com display flex */ 
+
+}
+
+.sobre-nos span{
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--main-color);
+
+}
+
+.sobre-nos h1{
+
+    margin-bottom: 36px;
+
+    color: #101828;
+    font-size: 48px;
+    font-weight: 600;
+
+    /* Espaçamento entre letras */
+    letter-spacing: -0.02em;
+}
+
+.sobre-nos p{
+
+    color: #667085;
+
+    margin-bottom: 107px;
+
+    font-size: 20px;
+    font-weight: 400;
+
+    text-align: center;
+
+    /* Definir largura e altura */
+    width: 796px;
+    height: 60px;
+
+
+}
