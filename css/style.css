@@ -2,9 +2,11 @@
 :root {
     --text-color: #667085;
     --main-color: #8E2424;
+     
 }
 *{
     margin: 0 auto;
+    font-family: "Poppins";
 
 }
 .navbar{
@@ -218,7 +220,7 @@
 /* PADRONIZANDO TEXTOS METRICAS */
 .metricas span{
 
-    line-height: 72px;
+    line-height: 75px;
     color:var(--main-color);
     font-weight:600;
     font-size:60px;
@@ -227,14 +229,15 @@
 
 }
 
-.metricas h3{
+.metricas h1{
 
-    line-height:28px;
+    line-height: 40px;
 
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
 
     color: #101828;
+
 
 }
 
@@ -247,4 +250,31 @@
 
     color: #667085;
 
+}
+
+/* VACATIONS - SECTION */
+
+.vacations{
+    width: 1440px;
+    height: 1798px;
+    background: #FFFFFF;
+
+    display: flex;
+    padding: 96px 0px;
+    flex-direction: column;
+
+}
+.talents{
+    text-align: center;
+    align-items: center;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 0 auto;
+    gap: 48px;
+
+}
+.talents span{
+    
 }
